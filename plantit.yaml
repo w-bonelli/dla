@@ -1,0 +1,12 @@
+name: DLA
+author: Wes Bonelli
+email: wbonelli@uga.edu
+public: False
+image: docker://wbonelli/dla
+commands: python3 /opt/dla/dla.py
+logo: wes/plots/dla.png
+jobqueue:
+  walltime: "00:02:00"
+  memory: "5GB"
+  processes: 1
+  cores: 1
