@@ -6,7 +6,7 @@ image: docker://wbonelli/dla
 commands: python3 /opt/dla/dla.py
 logo: dla.png
 jobqueue:
-  walltime: "00:02:00"
+  walltime: "02:00:00"
   memory: "5GB"
   processes: 1
   cores: 1
