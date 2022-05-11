@@ -5,6 +5,11 @@ public: False
 image: docker://wbonelli/dla
 commands: python3 /opt/dla/dla.py
 logo: dla.png
+output:
+  include:
+    patterns:
+      - png
+      - csv
 jobqueue:
   walltime: "02:00:00"
   memory: "5GB"
